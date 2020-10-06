@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "graphql-subscription-291704",
+  "private_key_id": "0dfb61311033efcdff1fcd11a64acddec682cf89",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCOm0Yc5LWUD9Vl\n7QdsaEVrRBope5Hu8gJQSWfNF4se5uvilxH7g5QYVoGdNdcUguTxaz9UlB7f115M\nQqDvEq05027JMEFXxDo5uZFgu/6S7sDg7NWQWUC2HpYojjKEEKx+X87p6SBAoipG\nrMs8z6AGXCVPHd/YQO6p95SXRQWcZCmjxjGGiKgCPwK7lTF1KQZ6BzvxpK9ujx8W\nHhxaOV5oWrvkkvFKSwIxDx949wexgWsPSXTcvRn78xK/k8Vs+894p8HPYc5EzOMD\nGRyZi1/XqEPhh/493DEP4UUlwhiy+9KbIw5h1tm0bWtD70eJMCSyOjE4ii50qcr6\n8QZzKFoTAgMBAAECggEAB2/OLTg5cTo40l2VCIXmMNzWpxkm7W4OHtUP0Qs27xVI\ncdhCUM/LdlAfPEKQL8/6U84C+cyA+61bNouMTEtjYI5HyxLK0DfkeBmBnP4mHXrO\nm4GI9Zkh8x1kjpgzxt1TvCy6OUqLVbOJ6YZIpv2GMS62/LQ9yyTqYqS4SVczyV7/\n4so3SZRD88EE3+Wibiy0CDGKjVMBh6lhdM4ZEQrpHp9cIHzxjalgXdthWabPWSVN\nmckUDHLEefTU6F/dGNMpV+yzucGu690YEA4yrvBCv6vmNcKMh0NXt9OYtxHF7BdD\nMDeBF9ggLI+dmRgNS2USzbcTrJkeXlE7R4MEsYb/wQKBgQDF5PmYw5IdpzSVsWNf\n+A7fUp1EWSHXiwUfa7FyPWLSwO2WCA1vh3zOGlC3nbCXqE0y+/Eezw9n7jz/QUNJ\n5DERBM3s8kLmnB18Ppqq6lnDwcVjPA7CKhZLeqSIyjV6inxKIJbn0jkHxfd+Tfps\ngheNWtwSD4RVUJ7Gzukyd1SqswKBgQC4eoDWTH86IYp3W6crdrmo8mnJVu1xpMAf\nAxIDo3Gi7zloSdo4oib2swOtXawu+M0LRpqjsLw7kx5nZXzw1XNEc3KwTP9+c5OR\nOjmTezBifRtKMB2auJ+YyvIKO9pYQdPBWHa6xY589n3A9qHBxrmllsvNo1uqsSs7\nC+yMG+jDIQKBgQCujZT3gXINw+GnNEuSaAw+QfHEStaF9/Lxzx06xhi4C0LFtp6b\nRKf6Z83Q2D/e1a4ajY4Wfc95/fNBt4Ax2hzJhTJakSofnY6Ie/QTVBkPiYihSmU+\nML9vnmMo4SugxixxeiOBobV6PM1cVE3SjkFWBtHdAGDam/0hIXsib4137wKBgQCZ\nTcRPUhbQehsVgWb0qZ80FO9wT/rWW/EEVIrd1y+SFXcBgY4FTktO7Aj8Q0HZbw0G\nd8/+g9qJL4MurZockWVO1xnSBMq1jNpu75H1S4Qz9H9/MWkIsLCASvbFJmQWv+13\nWUqhf5cfpb9vYgWegMS6JQyMgVqmCMFCOnCDJpZRwQKBgCBs1VstCPHPQFQMknL4\n7xOj/FarhgUNX7oPbZ51KZog81LMK+9lUgQZ0MDb0LPeIpPP4tycCKkcq63UbLWH\nmd7ECYneNOujV47zMuh9sycrQQGRKj83FsjBSpCdQL4dh9ELKH8dLnXa/BpKRa8I\ndRn9b6CqVfVkclpobvdS1Lk3\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-03cuong@graphql-subscription-291704.iam.gserviceaccount.com",
+  "client_id": "116924707183663951105",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-03cuong%40graphql-subscription-291704.iam.gserviceaccount.com"
+}
