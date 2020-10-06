@@ -3,23 +3,30 @@ import { GooglePubSub } from '@axelspringer/graphql-google-pubsub';
 
 import config from './config.json';
 
-const options = {
-  projectId: config.project_id,
-  credentials: {
-    client_email: config.client_email,
-    private_key: config.private_key,
-  },
-};
 const commonMessageHandler = ({ data = '' }) => JSON.parse(data.toString());
+
+// production
+// const pubsub = new GooglePubSub(
+//   {
+//     projectId: config.project_id,
+//     credentials: {
+//       client_email: config.client_email,
+//       private_key: config.private_key,
+//     },
+//   },
+//   undefined,
+//   commonMessageHandler,
+// );
+// development
 const pubsub = new GooglePubSub(
-  options,
+  {
+    projectId: config.project_id,
+    apiEndpoint: 'localhost:8681',
+    isEmulator: true,
+  },
   undefined,
   commonMessageHandler,
 );
-// const pubsub = new GooglePubSub({
-//   apiEndpoint: 'localhost:8681',
-//   isEmulator: true,
-// });
 
 const CHAT_CHANNEL = 'stuff';
 let chats = [
