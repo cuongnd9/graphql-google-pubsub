@@ -10,7 +10,16 @@ const options = {
     private_key: config.private_key,
   },
 };
-const pubsub = new GooglePubSub(options);
+const commonMessageHandler = ({ data = '' }) => JSON.parse(data.toString());
+const pubsub = new GooglePubSub(
+  options,
+  undefined,
+  commonMessageHandler,
+);
+// const pubsub = new GooglePubSub({
+//   apiEndpoint: 'localhost:8681',
+//   isEmulator: true,
+// });
 
 const CHAT_CHANNEL = 'stuff';
 let chats = [
@@ -48,6 +57,20 @@ const resolver = {
   Subscription: {
     messageSent: {
       subscribe: () => pubsub.asyncIterator(CHAT_CHANNEL),
+      // subscribe: async () => {
+      //   const stream: any = await pubsub.asyncIterator(CHAT_CHANNEL);
+      //   // eslint-disable-next-line no-restricted-syntax
+      //   for await (const payload of stream) {
+      //     // eslint-disable-next-line no-shadow
+      //     console.log(payload.data.toString(), '---------🐛---------');
+      //     return {
+      //       // eslint-disable-next-line require-await
+      //       async* [Symbol.asyncIterator]() {
+      //         yield payload;
+      //       },
+      //     };
+      //   }
+      // },
     },
   },
 };
